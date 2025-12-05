@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>About Amirhosein</title>
+<style>
+    body {
+        font-family: "Segoe UI", sans-serif;
+        background: #000;
+        margin: 0;
+        padding: 0;
+        color: #e6c674;
+    }
+
+    .container {
+        max-width: 650px;
+        margin: 40px auto;
+        background: #0d0d0d;
+        border: 1px solid #3a2f17;
+        padding: 25px;
+        border-radius: 20px;
+        box-shadow: 0 0 25px rgba(255,215,0,0.1);
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+        margin-bottom: 8px;
+        color: #e6c674;
+    }
+
+    .bio {
+        text-align: center;
+        font-size: 16px;
+        color: #c7b278;
+        line-height: 1.6;
+        margin-bottom: 28px;
+    }
+
+    .section-title {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: #e6c674;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .link-btn {
+        display: block;
+        width: 90%;
+        margin: 12px auto;
+        padding: 14px;
+        text-align: center;
+        background: linear-gradient(90deg, #947739, #c9a85c);
+        color: black;
+        text-decoration: none;
+        border-radius: 12px;
+        font-size: 17px;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .link-btn:hover {
+        filter: brightness(1.15);
+    }
+
+    .qr-box {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .qr-box img {
+        width: 180px;
+        border: 3px solid #c9a85c;
+        border-radius: 12px;
+        padding: 8px;
+        background: #000;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Amirhosein</h1>
+    <h3>Mechanical Engineering Student</h3>
+
+    <p class="bio">
+        Welcome to my page! Feel free to connect with me on my socials below.
+    </p>
+
+    <!-- Personal Socials -->
+    <h2 class="section-title">Personal Socials</h2>
+
+    <a class="link-btn" href="https://instagram.com/amir_nkhjvni" target="_blank">Instagram (@amir_nkhjvni)</a>
+    <a class="link-btn" href="https://t.me/beastsaed" target="_blank">Telegram (@beastsaed)</a>
+
+    <!-- Download Contact -->
+    <h2 class="section-title">Download Contact</h2>
+
+    <a class="link-btn" href="contact.vcf" download>Download My Contact Card</a>
+
+    <!-- QR Code -->
+    <div class="qr-box">
+        <img src="qr.png" alt="QR Code">
+        <p>Scan to download my contact</p>
+    </div>
+
+    <!-- Shop placeholder -->
+    <h2 class="section-title">My Shop</h2>
+    <p class="bio">Coming soon…</p>
+
+</div>
+
+</body>
+</html>
